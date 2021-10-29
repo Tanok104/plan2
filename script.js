@@ -62,6 +62,17 @@ function sixth() {
     }
 };
 
+/* The second task */
+
+
+
+function min(a, b) {
+    let minNum = Math.min(a, b);
+    document.write(minNum);
+};
+
+
+
 
 
 let task1 = document.getElementById("task1");
@@ -82,3 +93,5 @@ task5.addEventListener("click", fifth, false);
 let task6 = document.getElementById("task6");
 task6.addEventListener("click", sixth, false);
 
+let task7 = document.getElementById("task7");
+task7.addEventListener("click", min(0, 10), false);
